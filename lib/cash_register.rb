@@ -1,4 +1,4 @@
-class CashRegister
+	class CashRegister
 	attr_accessor :total
 	attr_reader :items, :discount
 	
