@@ -15,7 +15,6 @@ attr_reader  :items
         quantity.times do
             @items << title
           end
-        binding.pry
     end
 
     def apply_discount
