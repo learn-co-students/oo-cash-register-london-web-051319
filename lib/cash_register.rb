@@ -43,22 +43,7 @@ class CashRegister
 end
    
    def void_last_transaction
-      # @item_list.delete(@item)
-      # binding.pry
       @total -= total
    end
-   
-   # def total=(total)
-   #    @total = total
-   # end
-   
-
-# WORKS BUT NOT REQUIRED
-
-
-
-   # def discount
-   #    @discount
-   # end
 
 end
